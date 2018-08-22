@@ -12,6 +12,11 @@
             Vue.prototype.$cookie = this;
             Vue.cookie = this;
         },
+
+        isEnabled: function () {
+            return Cookie.isEnabled()
+        },
+
         set: function (name, value, daysOrOptions) {
             var opts = daysOrOptions;
             if(Number.isInteger(daysOrOptions)) {
