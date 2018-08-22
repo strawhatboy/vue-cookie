@@ -1,6 +1,6 @@
 {
   "name": "vue-cookie",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A Vue.js plugin for manipulating cookies",
   "author": "Alf Henderson <alfhenderson@gmail.com>",
   "private": false,
@@ -17,7 +17,7 @@
     "url": "https://github.com/alfhen/vue-cookie.git"
   },
   "dependencies": {
-    "tiny-cookie": "^1.0"
+    "tiny-cookie": "^2.1.2"
   },
   "devDependencies": {
     "jasmine": "^2.5.2",
